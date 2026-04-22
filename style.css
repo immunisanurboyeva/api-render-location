@@ -1,0 +1,42 @@
+
+        .wrapper{
+            display: flex; 
+            width: 90bw;
+            margin: 0 auto;
+            /* background: #e6b1b14f; */
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            gap: 14px;
+            width: 300px;
+            /* background: #4944448d; */
+            padding: 10px 20px;
+            overflow-y: auto;
+            max-height: 45rem;
+        }
+        li{
+            background: #000000d0;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 12px;
+            border: 1px solid #ffffffaa;
+        }
+        a{
+            color: aquamarine;
+            text-decoration: none;
+        }
+        .user-list{
+            position: absolute; 
+            top: 0;
+            left: 100px;
+        }
+        .post-list{
+            top: 0;
+            right: 100px;
+        }
