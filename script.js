@@ -37,8 +37,6 @@ function renderPost(arr, parent){
     .join("");
 }
 
-
-
 userUl.addEventListener('click', (e)=>{
     const userItem = e.target.closest('.user-item')
     
